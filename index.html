@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainBox">
+        <div id="userInput">
+           <h1>WeatherApp</h1>
+           <form  id="userForm">
+            <label for="city">Enter a city to get its Weather</label>
+            <input type="text" id="city" name="city" placeholder="eg. Paris">
+            <p id="error"></p>
+            <input type="submit" value="Go!">
+           </form>
+        </div>
+        <div id="weatherOutput">
+            <div id="location">
+
+            </div>
+            <div id="conditions">
+                
+            </div>
+            <div id="iconDisplay">
+                <img src=""  id="icon">
+            </div>
+            <div id="weatherDisplay">
+
+            </div>
+            
+        </div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>
